@@ -74,7 +74,6 @@ aggsav = 1 ;
     % KEEP DECSISION RULE
     pol_fn_e = a(pol_indx_e);
     pol_fn_u = a(pol_indx_u);
-    pol_fn = [pol_fn_e; pol_fn_u];
     
     % SET UP INITITAL DISTRIBUTION
     % What's the stucture and value of Mu? 2 by 10 matrix.
