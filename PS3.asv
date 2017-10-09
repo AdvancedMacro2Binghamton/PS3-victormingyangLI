@@ -94,20 +94,25 @@ while abs(aggsav) >= 0.01 ;
     end
 end
 
+% Calculate the risk-free interest rate
+r = 1 / q_guess;
+
 % Plot the value function of the Employed and Unemployed
 plot(a, v_guess);
 legend('Employed', 'Unemployed', 'location', 'northwest');
 title('Value Function of the Employed and Unemployed');
 
-% Plot the Lorenz curves and calculate the Gini coefficients
+% Plot the Lorenz curves and compute the Gini coefficients
 Mu_trans = Mu';
 pop = [Mu_trans(:, 1); Mu_trans(:, 2)];
 val_earnings = [repmat(y_s(1), [num_a, 1]); repmat(y_s(2), [num_a, 1])];
 figure
 [gini_earnings, l_earnings] = gini(pop, val_earnings, true);
-title(compose(['Gini Coefficient of Earnings = ', num2str(gini_earnings),' when there are ', num2str(num_a), ' grid points']))
+title(['Lorenz Curve of Earnings with Gini Coefficient = ', num2str(gini_earnings),...
+       ' when there are ', num2str(num_a), ' grid points in a'])
 val_wealth = [a' + y_s(1); a' + y_s(2)];
 val_wealth(val_wealth < 0) = 0;
 figure
 [gini_wealth, l_wealth] = gini(pop, val_wealth, true);
-title(['Gini Coefficient of Wealth = ', num2str(gini_wealth)])
+title(['Gini Coefficient of Wealth = ', num2str(gini_wealth),...
+       ' when there are ', num2str(num_a), ' grid points in a'])
