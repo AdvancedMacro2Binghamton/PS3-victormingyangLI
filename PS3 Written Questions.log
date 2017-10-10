@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.29)  9 OCT 2017 15:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.8.29)  9 OCT 2017 15:55
 entering extended mode
 **"./PS3 Written Questions.tex"
 ("PS3 Written Questions.tex"
@@ -218,31 +218,52 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 19.
 
 ("D:\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
+)
+<ValueFunction.jpg, id=1, 702.625pt x 526.96875pt>
+File: ValueFunction.jpg Graphic file (type jpg)
+ <use ValueFunction.jpg>
+Package pdftex.def Info: ValueFunction.jpg used on input line 30.
+(pdftex.def)             Requested size: 316.13857pt x 237.10962pt.
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] ("PS3 Written Questions.a
-ux") ) 
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<LorenzCurveofEarnings.jpg, id=19, 702.625pt x 526.96875pt>
+File: LorenzCurveofEarnings.jpg Graphic file (type jpg)
+
+<use LorenzCurveofEarnings.jpg>
+Package pdftex.def Info: LorenzCurveofEarnings.jpg used on input line 35.
+(pdftex.def)             Requested size: 316.13857pt x 237.10962pt.
+
+<LorenzCurveofWealth.jpg, id=20, 702.625pt x 526.96875pt>
+File: LorenzCurveofWealth.jpg Graphic file (type jpg)
+
+<use LorenzCurveofWealth.jpg>
+Package pdftex.def Info: LorenzCurveofWealth.jpg used on input line 38.
+(pdftex.def)             Requested size: 316.13857pt x 237.10962pt.
+ [2 <./ValueFunction.jpg> <./LorenzCurveofEarnings.jpg>] [3 <./LorenzCurveofWea
+lth.jpg>] ("PS3 Written Questions.aux") ) 
 Here is how much of TeX's memory you used:
- 2466 strings out of 493323
- 33348 string characters out of 3145100
+ 2483 strings out of 493323
+ 33749 string characters out of 3145100
  97921 words of memory out of 3000000
- 5973 multiletter control sequences out of 15000+200000
+ 5986 multiletter control sequences out of 15000+200000
  9683 words of font info for 38 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,4n,25p,257b,193s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmex10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmmi12.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr12.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6
-.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmsy10.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmsy6.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/MiKT
-eX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><D:/MiKTeX 2.9/fonts/type
-1/public/rsfs/rsfs10.pfb>
-Output written on "PS3 Written Questions.pdf" (1 page, 115823 bytes).
+ 39i,4n,25p,257b,303s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb><D:/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/m
+sbm10.pfb><D:/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on "PS3 Written Questions.pdf" (3 pages, 210618 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
