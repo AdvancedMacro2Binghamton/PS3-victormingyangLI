@@ -27,7 +27,7 @@ q_guess = (q_min + q_max) / 2;
 % What is the variable aggsav? Excess demand for asset? Yes.
 aggsav = 1 ;
 % Loop counter
-i = 0;
+% i = 0;
 while abs(aggsav) >= 0.01 ;
     q_guess = (q_min + q_max) / 2;
     % CURRENT RETURN (UTILITY) FUNCTION
@@ -85,7 +85,7 @@ while abs(aggsav) >= 0.01 ;
         dis = max(max(abs(MuNew - Mu)));
         Mu = MuNew;
     end
-    i = i + 1
+    % i = i + 1
     aggsav = Mu(1, :) * a' + Mu(2, :) * a';
     if aggsav >= 0;
         q_min = q_guess;
